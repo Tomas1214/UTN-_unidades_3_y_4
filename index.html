@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+    <h1>Presiona en un cuadrado para cambiar el color de fondo de la página</h1>
+    <div  style="width: 100px; height: 100px; margin: 10px; border: 5px solid black; background-color: lightblue;" style="background-color: lightblue" onclick="cambiar_color_de_fondo('lightblue')"></div>
+    <div style="width: 100px; height: 100px; margin: 10px; border: 5px solid black; background-color: lightcoral;" style="background-color: lightcoral" onclick="cambiar_color_de_fondo('lightcoral')"></div>
+    <div style="width: 100px; height: 100px; margin: 10px; border: 5px solid black; background-color: white;" style="background-color: white" onclick="cambiar_color_de_fondo('white')"></div>
+
+    <h1>Contar la cantidad de caracteres</h1>
+    <form onsubmit="contar_caracteres(event)">
+        <textarea id="textarea"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
